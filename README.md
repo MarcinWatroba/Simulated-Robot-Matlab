@@ -9,7 +9,6 @@ A simulated robot using FSM along with reactive and planned behaviour for exitin
 
 <h2>Screenshot showing robot's path</h2>
 <img src="https://github.com/marcin388/Simulated-Robot-Matlab/blob/master/path-screen.png">
-![Screenshot Missing](https://github.com/marcin388/Simulated-Robot-Matlab/blob/master/path-screen.png)
 
 <h2>How it works</h2>
 The AI architecture was designed to be a hybrid of reactive and planned behaviours. The reactive behaviours such as wandering, following walls and homing to beacon are contained within the separate planned tasks that are performed step by step when particular conditions are met.
