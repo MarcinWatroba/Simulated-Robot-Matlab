@@ -21,44 +21,62 @@ Each planned task is a while loop that can contain a series of planned and/or re
       <li>Follow walls on the right (reactive).</li>
   </ul>
  </li>
-    <li></li>
-    <li></li>
-</ol>
-2.	Turn and go towards the calculated middle of the room, update odometry.
-3.	Find the exit of the room.
-a.	Turn.
-b.	Calculate odometry.
-c.	Check Lidar for frontal readings indicating the position of the exit.
-4.	Exit the room and update odometry.
-5.	Find the Beacon.
-a.	Calculate odometry.
-b.	Wander (reactive).
-c.	Follow walls on the left (reactive).
-d.	Follow walls on the right (reactive).
-e.	Check camera for a beacon reading (reactive).
-6.	Go towards the beacon.
-a.	Calculate odometry.
-b.	Read camera for distance and angle offset of the beacon.
-c.	Drive towards the beacon.
-7.	Calculate odometry and beacon location.
-8.	Circle around the beacon.
-a.	Follow the wall at close distance.
-b.	Calculate current distance away from the beacon.
-c.	Compare current distance with the closest calculated distance.
-d.	Stop if current distance is close to the closest distance.
-9.	Depending on which side is the beacon, turn either 90 degrees left or right.
-10.	Go towards the wall.
-a.	Drive forward
-b.	Check bumpers for collision.
-11.	Reverse and turn around.
-12.	Look for the room entrance.
-a.	Go straight (reactive).
-b.	Follow left wall (reactive).
-c.	Follow right wall (reactive).
-d.	Obtain various Lidar Readings.
-e.	Check if Lidar readings indicate the presence of the entrance.
-13.	Turn towards the entrance.
-14.	Go towards the middle of the entrance.
-a.	Check front lidar distance
-b.	Drive straight until distance condition met.
-15.	Stop the robot.
+ <li>Turn and go towards the calculated middle of the room, update odometry.</li>
+ <li>Find the exit of the room.
+   <ul>
+     <li>Turn.</li>
+     <li>Calculate odometry.</li>
+     <li>Check Lidar for frontal readings indicating the position of the exit.</li>
+   </ul>
+ </li>
+ <li>Exit the room and update odometry.</li>
+ <li>Find the Beacon.
+   <ul>
+     <li>Calculate odometry.</li>
+     <li>Wander (reactive).</li>
+     <li>Follow walls on the left (reactive).</li>
+     <li>Follow walls on the right (reactive).</li>
+     <li>Check camera for a beacon reading (reactive).</li>
+   </ul>
+ </li>
+ <li>Go towards the beacon.
+   <ul>
+     <li>Calculate odometry.</li>
+     <li>Read camera for distance and angle offset of the beacon.</li>
+     <li>Drive towards the beacon.</li>
+   </ul>
+ </li>
+ <li>Calculate odometry and beacon location.</li>
+ <li>Circle around the beacon.
+   <ul>
+     <li>Follow the wall at close distance.</li>
+     <li>Calculate current distance away from the beacon.</li>
+     <li>Compare current distance with the closest calculated distance.</li>
+     <li>Stop if current distance is close to the closest distance.</li>
+   </ul>
+ </li>
+ <li>Depending on which side is the beacon, turn either 90 degrees left or right.</li>
+ <li>Go towards the wall.
+   <ul>
+     <li>Drive forward</li>
+     <li>Check bumpers for collision.</li>
+   </ul> 
+ </li>
+ <li>Reverse and turn around.</li>
+ <li>Look for the room entrance.
+   <ul>
+     <li>Go straight (reactive).</li>
+     <li>Follow left wall (reactive).</li>
+     <li>Follow right wall (reactive).</li>
+     <li>Obtain various Lidar Readings.</li>
+     <li>Check if Lidar readings indicate the presence of the entrance.</li>
+   </ul> 
+ </li>
+ <li>Turn towards the entrance.</li>
+ <li>Go towards the middle of the entrance.
+   <ul>
+     <li>Check front lidar distance</li>
+     <li>Drive straight until distance condition met.</li>
+   </ul>
+ </li>
+ <li>Stop the robot.</li>
