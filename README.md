@@ -8,7 +8,7 @@ A simulated robot using FSM along with reactive and planned behaviour for exitin
 -Finally, press start.
 
 <h2>Screenshot showing robot's path</h2>
-<img href="https://github.com/marcin388/Simulated-Robot-Matlab/blob/master/path-screen.png">
+<img src="https://github.com/marcin388/Simulated-Robot-Matlab/blob/master/path-screen.png">
 ![Screenshot Missing](https://github.com/marcin388/Simulated-Robot-Matlab/blob/master/path-screen.png)
 
 <h2>How it works</h2>
