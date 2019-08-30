@@ -11,12 +11,15 @@ A simulated robot using FSM along with reactive and planned behaviour for exitin
 
 The AI architecture was designed to be a hybrid of reactive and planned behaviours. The reactive behaviours such as wandering, following walls and homing to beacon are contained within the separate planned tasks that are performed step by step when particular conditions are met.
 Each planned task is a while loop that can contain a series of planned and/or reactive behaviours within it. Below is a breakdown of all the tasks and behaviours in the designed architecture.
-1.	Find the middle of the room.
+<ol>
+<li>	Find the middle of the room.
 -	Calculate odometry.
 -	Find the middle of the room based on lowest and highest robot’s locations.
 -	Drive straight (reactive).
 -	Follow walls on the left (reactive).
 -	Follow walls on the right (reactive).
+  </li>
+  </ol>
 2.	Turn and go towards the calculated middle of the room, update odometry.
 3.	Find the exit of the room.
 a.	Turn.
